@@ -12,7 +12,7 @@ educational purposes (also, it's super basic).
 2. At the moment, almost all of the code can only be run on Python 2.x, but I am working on writing them for Python 3+.
 
 3. I still do not fully understand elliptic curve cryptography (which is used for keygen+digital signatures) and I didn't want to write my
-   own base58 encoding class, so I used Python's libraries, which must be installed before you can run these files.
+   own base58 encoder, so I used Python's libraries, which must be installed before you can run these files.
    
    Simply run **pip install base58** and **pip install ecdsa** in your terminal to install the libraries I used.
    For Python 2, you may have to do a user install or it will fail. For example, **pip install ecdsa --user**
