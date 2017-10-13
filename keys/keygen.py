@@ -28,4 +28,5 @@ print "\n"+signed_msg.encode('hex')+"\n"
 
 # The recipient can then use your verifying key to verify that your message is
 # legitimate and was signed using your and only your signature key
+# If the message is not the same, it will return an error
 assert vk.verify(signed_msg, "hello world")

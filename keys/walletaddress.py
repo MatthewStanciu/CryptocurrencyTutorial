@@ -3,7 +3,7 @@ import os
 import ecdsa
 import base58
 
-# Generate a public/private keypair - see above for how this works
+# Generate a public/private keypair - see the other file for how this works
 private_key = os.urandom(32).encode('hex')
 print ("Private key: " + private_key)
 sk = ecdsa.SigningKey.from_string(private_key.decode('hex'), curve=ecdsa.SECP256k1)
