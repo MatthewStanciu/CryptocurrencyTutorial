@@ -8,6 +8,7 @@ print ("Private key: " + private_key)
 
 # The signing key - derived from the private key using the ECDSA algorithm
 # Used for digital signatures. Still a private key
+# SECP256k1 is the SHA256 hashing algorithm that Bitcoin uses
 sk = ecdsa.SigningKey.from_string(private_key.decode('hex'), curve=ecdsa.SECP256k1)
 # A public key used to verify that you did in fact sign the document
 vk = sk.verifying_key
