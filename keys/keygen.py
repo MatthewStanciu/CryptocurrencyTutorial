@@ -16,14 +16,14 @@ vk = sk.verifying_key
 # Bitcoin docs, another byte, 04, is added to the beginning of the verifying key
 # to create the public key.
 public_key = ('\04'+vk.to_string()).encode('hex')
-print "Public key: " + public_key
+print "\nPublic key: " + public_key
 
 # Example use case
 # When verifying, you send a recipient 3 things: your verifying key,
 # the original message, and the signed message
 msg = "hello world"
 signed_msg = sk.sign(msg)
-print signed_msg.encode('hex')
+print "\n"+signed_msg.encode('hex')+"\n"
 
 # The recipient can then use your verifying key to verify that your message is
 # legitimate and was signed using your and only your signature key
