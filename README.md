@@ -8,4 +8,6 @@ Please note that this is not at all practical. If you really want to make your o
 are a computer scientist who has a brilliant idea that improves or expands upon current blockchain technologies. This is only for
 educational purposes (also, it's super basic).
 
+Also, at the moment, almost all of the code can only be run on Python 2.x, but I am working on writing them for Python 3+.
+
 I made this as part of my high school club, CAT Club, in preparation for CodeDay Chicago in February, but this repository is public for anyone to stumble upon and learn more about the blockchain.
