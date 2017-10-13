@@ -15,6 +15,7 @@ educational purposes (also, it's super basic).
    own base58 encoding class, so I used Python's libraries, which must be installed before you can run these files.
    
    Simply run **pip install base58** and **pip install ecdsa** in your terminal to install the libraries I used.
+   For Python 2, you may have to do a user install or it will fail. For example, **pip install ecdsa --user**
    
    I will definitely make my own base58 encoder in the future, and I will probably make my own ECDSA class (but probably not because it's
    really complicated)
