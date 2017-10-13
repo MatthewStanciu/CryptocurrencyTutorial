@@ -17,7 +17,7 @@ educational purposes (also, it's super basic).
    Simply run **pip install base58** and **pip install ecdsa** in your terminal to install the libraries I used.
    For Python 2, you may have to do a user install or it will fail. For example, **pip install ecdsa --user**
    
-   I will definitely make my own base58 encoder in the future, and I will probably make my own ECDSA class (but probably not because it's
+   I will definitely make my own base58 encoder in the future, and I will maybe make my own ECDSA class (but probably not because it's
    really complicated)
 
 4. I made this as part of my high school club, [CAT Club](https://github.com/wl-acsl), in preparation for CodeDay Chicago in February, but this repository is public for anyone to stumble upon and learn more about the blockchain.
