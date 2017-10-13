@@ -20,4 +20,4 @@ educational purposes (also, it's super basic).
    I will definitely make my own base58 encoder in the future, and I will probably make my own ECDSA class (but probably not because it's
    really complicated)
 
-4. I made this as part of my high school club, CAT Club, in preparation for CodeDay Chicago in February, but this repository is public for anyone to stumble upon and learn more about the blockchain.
+4. I made this as part of my high school club, [CAT Club](https://github.com/wl-acsl), in preparation for CodeDay Chicago in February, but this repository is public for anyone to stumble upon and learn more about the blockchain.
