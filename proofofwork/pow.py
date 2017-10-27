@@ -38,7 +38,7 @@ if __name__ == '__main__':
 		print "Starting search..."
 		start = time.time()
 
-		new_block = 'test block with transactions' + hash_result
+		new_block = 'test block header' + hash_result
 		# The hash result and nonce are given values once the proof of work
 		# algorithm has been completed
 		(hash_result, nonce) = proof_of_work(new_block, difficulty_num)
